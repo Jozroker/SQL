@@ -17,13 +17,13 @@ CREATE TABLE IF NOT EXISTS book (
    author_prizes VARCHAR(120),
    price DECIMAL(6, 2) NOT NULL
    );
-   
+
 INSERT INTO book (book_name, date_of_publication, category, isbn, sheets_qty,
 	author_first_name, author_last_name, author_email, author_age, author_birthday, price)
 	VALUES 
 		('Jacob\'s Room', '2015-09-23', 'novel', '0-3457-8753-6', 624, 'Virginia', 'Woolf',
 			'virginja1@gmail.com', 32, '1988-07-05', 265.34),
-		('The Bridge on the Drina', '2014-05-15', 'legend', '0-2721-1401-4', 235, 'Ivo', 'Andrik',
+		('The Bridge on the Drina', '2014-05-15', 'legend', '0-2921-1401-4', 235, 'Ivo', 'Andrik',
 			'andric@mail.ru', 24, '1996-03-30', 404.3),
 		('Quincas Borba', '2017-05-06', 'satire', '0-9439-3973-9', 98, 'Machado', 'Assis',
 			'machadoa@gmail.com', 29, '1991-05-22', 668.69),
